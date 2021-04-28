@@ -100,5 +100,5 @@ function varget(input){
 
 
 }
-
+document.getElementById("testvar").innerHTML = "Dogs can do flips"
 varget(charinput1);
