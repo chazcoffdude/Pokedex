@@ -93,7 +93,7 @@ function varget(input){
 
   let boxy = document.createElement("div");
 
-  boxy.innerHTML("Yes yes yes");
+  boxy.write("Yes yes yes");
   document.body.appendChild(boxy);
 
   }
