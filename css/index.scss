@@ -8,7 +8,6 @@
     background-size: cover;
 }
 .Charmander{
-    border: black solid 5px;
     border-radius: 50%;
     width: 19rem;
     height: 19rem;
@@ -26,7 +25,7 @@
     float: left;
     padding-left: 50px;
     padding-top: 100px;
-    border: black solid 5px;
+
 }
 .row2{
     display: flex;
@@ -34,7 +33,7 @@
     float: right;
     padding-right: 50px;
     padding-top: 100px;
-    border: black solid 5px;
+
 }
 //charmander
 .colorO{
@@ -56,13 +55,19 @@
 }
 .Wcard{
     background-color: #ffffff;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-evenly;
 }
 #imgchar{
     width: 20rem;
     height: 20rem;
+}
+.type{
+    background-color: #F08030;
+    color: white;
 }
 .card2{
     background-color: #F5AC78;
@@ -70,12 +75,13 @@
     margin-left: 8px;
     margin-right: 8px;
     margin-bottom: 8px;
+    padding-bottom: 2px;
 }
 .Wcard2{
     background-color: #ffffff;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
 }
 .card3{
     background-color: #F5AC78;
@@ -83,12 +89,17 @@
     margin-left: 8px;
     margin-right: 8px;
     margin-bottom: 8px;
+    padding-bottom: 2px;
 }
 .Wcard3{
     background-color: #ffffff;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+.HxW{
+    display: flex;
+    justify-content: space-evenly;
 }
 .card4{
     background-color: #F5AC78;
@@ -96,75 +107,36 @@
     margin-left: 8px;
     margin-right: 8px;
     margin-bottom: 8px;
+    padding-bottom: 2px;
 }
 .Wcard4{
     background-color: #ffffff;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
-.card5{
-    background-color: #F5AC78;
-    text-align: center;
     margin-left: 8px;
     margin-right: 8px;
     margin-bottom: 8px;
 }
-.Wcard5{
-    background-color: #ffffff;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+.stats{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
-.card6{
-    background-color: #F5AC78;
-    text-align: center;
-    margin-left: 8px;
-    margin-right: 8px;
-    margin-bottom: 8px;
+.hp{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
 }
-.Wcard6{
-    background-color: #ffffff;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+.atk{
+    background-color: #F08030;
 }
-.card7{
-    background-color: #F5AC78;
-    text-align: center;
-    margin-left: 8px;
-    margin-right: 8px;
-    margin-bottom: 8px;
+.def{
+    background-color: yellow;
 }
-.Wcard7{
-    background-color: #ffffff;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+.sp-atk{
+    background-color: lightblue;
 }
-.card8{
-    background-color: #F5AC78;
-    text-align: center;
-    margin-left: 8px;
-    margin-right: 8px;
-    margin-bottom: 8px;
+.sp-def{
+    background-color: lightgreen;
 }
-.Wcard8{
-    background-color: #ffffff;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
-.card9{
-    background-color: #F5AC78;
-    text-align: center;
-    margin-left: 8px;
-    margin-right: 8px;
-    margin-bottom: 8px;
-}
-.Wcard9{
-    background-color: #ffffff;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+.sped{
+    background-color: rgba(248, 10, 10, .5);
 }
