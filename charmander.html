@@ -3,38 +3,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <link rel="stylesheet" href="../Pokedex/css/index.css">
-    <link rel="icon" href="../Pokedex/images/iconface.jfif" type="image">
+    <link rel="stylesheet" href="../Pokemon/css/index.css">
+    <link rel="icon" href="../Pokemon/images/iconface.jfif" type="image">
     <title>Charmander</title>
 </head>
 <body >
     <div class="colorO rounded">
         <div class="mainO rounded">
             <div class="card rounded">
-                <b>name</b>
+                <b id="name"></b>
                 <div class="Wcard rounded">
-                    <img src="images/pngcharmander.png" id="imgchar">
+                    <img src="../Pokemon/images/pngcharmander.png" id="imgchar">
                 </div>
             </div>
             <div class="card rounded">
                 <b>type</b>
                 <div class="Wcard rounded">
-                    <b class="type">fire</b>
+                    <b id="type" class="type"></b>
                 </div>
             </div>
 
             <div class="card rounded">
                 <b>Abilities</b>
                 <div class="Wcard rounded">
-                    <b>blaze</b>
-                    <b>solar-power</b>
+                    <b id="abilite"></b>
+                    <b id="abilites"></b>
                 </div>
             </div>
 
             <div class="card2 rounded">
                 <b>Base Experience</b>
                 <div class="Wcard2 rounded">
-                    <b>number</b>
+                    <b id="baseXP"></b>
                 </div>
             </div>
 
@@ -42,14 +42,14 @@
                 <div class="card3 rounded">
                     <b>height</b>
                     <div class="Wcard3 rounded">
-                        <b>number</b>
+                        <b id="height"></b>
                     </div>
                 </div>
 
                 <div class="card4 rounded">
                     <b>weight</b>
                     <div class="Wcard4 rounded">
-                        <b>number</b>
+                        <b id="weight"></b>
                     </div>
                 </div>
             </div>
@@ -61,64 +61,64 @@
                     <div class="stats">
                         <div class="hp rounded">
                             <b>HP</b>
-                            <b>number</b>
+                            <b id="hp"></b>
                         </div>
 
                         <div class="atk rounded">
                             <b>attack</b>
-                            <b>number</b>
+                            <b id="atk"></b>
                         </div>
 
                         <div class="def rounded">
                             <b>defense</b>
-                            <b>number</b>
+                            <b id="def"></b>
                         </div>
 
                         <div class="sp-atk rounded">
                             <b>special-attack</b>
-                            <b>number</b>
+                            <b id="spatk"></b>
                         </div>
 
                         <div class="sp-def rounded">
                             <b>special-defense</b>
-                            <b>number</b>
+                            <b id="spdef"></b>
                         </div>
 
                         <div class="sped rounded">
                             <b>speed</b>
-                            <b>number</b>
+                            <b id="sped"></b>
                         </div>
                     </div>
 
                     <div class="stats">
                         <div class="hp rounded">
                             <b>base hp</b>
-                            <b>number</b>
+                            <b id="Bhp"></b>
                         </div>
 
                         <div class="atk rounded">
                             <b>base atk</b>
-                            <b>number</b>
+                            <b id="Batk"></b>
                         </div>
 
                         <div class="def rounded">
                             <b>base def</b>
-                            <b>number</b>
+                            <b id="Bdef"></b>
                         </div>
 
                         <div class="sp-atk rounded">
                             <b>base sp-atk</b>
-                            <b>number</b>
+                            <b id="Bspatk"></b>
                         </div>
 
                         <div class="sp-def rounded">
                             <b>base sp-def</b>
-                            <b>number</b>
+                            <b id="Bspdef"></b>
                         </div>
 
                         <div class="sped rounded">
                             <b>base speed</b>
-                            <b>number</b>
+                            <b id="Bsped"></b>
                         </div>
                     </div>
                 </div>
@@ -127,4 +127,5 @@
         </div>
     </div>
 </body>
+<script src="../Pokemon/JS/pokedex.js"></script>
 </html>
