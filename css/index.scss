@@ -127,16 +127,26 @@
 }
 .atk{
     background-color: #F08030;
+    display: flex;
+    flex-direction: column;
 }
 .def{
     background-color: yellow;
+    display: flex;
+    flex-direction: column;
 }
 .sp-atk{
     background-color: lightblue;
+    display: flex;
+    flex-direction: column;
 }
 .sp-def{
     background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
 }
 .sped{
     background-color: rgba(248, 10, 10, .5);
+    display: flex;
+    flex-direction: column;
 }
